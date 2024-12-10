@@ -18,7 +18,8 @@ source dev-container-features-test-lib
 
 # Feature-specific tests
 # The 'check' command comes from the dev-container-features-test-lib.
-check "swa" swa --version
+check "swa" swa version
+check "swa specific version v1.1.10" /bin/bash -c "swa --version | grep '1.1.10'"
 
 # Report result
 # If any of the checks above exited with a non-zero exit code, the test will fail.

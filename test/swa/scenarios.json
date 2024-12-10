@@ -1,0 +1,10 @@
+{
+    "swa-specific-version": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "swa": {
+                "version": "v1.1.10"
+            }
+        }
+    }
+}
