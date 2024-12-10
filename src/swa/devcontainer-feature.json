@@ -1,0 +1,18 @@
+{
+    "name": "Azure Static Web Apps CLI (via npm)",
+    "id": "SWA",
+    "version": "1.0.0",
+    "description": "The Static Web Apps CLI (SWA CLI) includes a series of local services that approximate how your app would run on Azure.",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "description": "Version of SWA CLI to install. Accepts versions with or without the 'v' prefix."
+        }
+    },
+    "documentationURL": "https://learn.microsoft.com/en-us/azure/static-web-apps/static-web-apps-cli-overview?wt.mc_id=AZ-MVP-5004151",
+    "installsAfter": [
+        "ghcr.io/devcontainers-extra/features/npm-package",
+        "ghcr.io/devcontainers/features/node"
+    ]
+}
